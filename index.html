@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Website Design </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-</head>
+   </head>
 <body>
     <div class="main">
         <nav>
@@ -15,10 +16,12 @@
             </div>
             <div class="nav-links">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Phone</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">cart</a></li>
+                    <li class="active"><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#"><i class="fa fa-user"></i>About Us</a>
+                        
+                    <li><a href="#"><i class="fa fa-mobile"></i>Phone</a></li>
+                    <li><a href="#"><i class="fa fa-headset"></i>Accessories</a></li>
+                    <li><a href="#"><i class="fa fa-bucket"></i>Cart</a></li>
                 </ul>
             </div>
         </nav>
@@ -30,6 +33,7 @@
                 <img src="images/camera.png">
                 <div>
                     <h1>Camera</h1>
+
                     <p>12MP, Wide Angle Lens</p>
                 </div>
             </div>
@@ -58,6 +62,17 @@
                 <div class="feature"></div>
                 <div class="feature"></div>
             </div>
+        </div>
+        <div class="controls">
+            <div class="details">
+            <details>
+                <summary>Click Here To Watch Mobile Trailer</summary>
+                <button class="botton">watch now</button></div>
+                <div class="trailer-container active">
+                <video src="trailer.mp4"controls></video>
+                <i class="fas fa-times fa-2x close-icon"></i>
+                </div>
+            </details>
         </div>
         <div class="controls">
             <img src="images/arrow.png" id="upBtn">
